@@ -21,6 +21,7 @@ div {
     margin-left:15px;
     width: 110px;
     padding-right: 800px;
+
 }
 
 .mainlogo {
@@ -54,7 +55,7 @@ order:2;
     display:flex;
     width:275px;
     align-content: center;
-    border: solid 1px rgb(185, 185, 185);
+    border: solid 1px rgb(228, 227, 227);
     border-radius: 12px;
     margin-bottom: 18px;;
     }
@@ -64,31 +65,33 @@ order:2;
         justify-content: center;
         width:35px;
         text-decoration-color: #FFFFFF;
-        background-color: #c2bebe;
+        background-color: rgb(228, 227, 227);
         padding:3px;
-        border-bottom-left-radius: 12px;
-        border-top-left-radius: 12px;
+        border-bottom-left-radius: 11px;
+        border-top-left-radius: 11px;
     }
 
 .searchmarker {
         display: flex;
         justify-content: center;
-        width:18px;
+        width:12px;
         padding:3px;
         justify-content: center;
     }
 
 .search2 {
+        font-size: .85em;
         color: #0a0909;
         padding:7px;
     }
 
 .search3 {
+    font-size: .85em;
     text-decoration-color: #FFFFFF;
-    background-color: rgb(20, 57, 219);
-    padding:7px;
-    border-bottom-right-radius: 12px;
-    border-top-right-radius: 12px;
+    background-color: #0065FC;
+    padding:8px;
+    border-bottom-right-radius: 11px;
+    border-top-right-radius: 11px;
 }
 
 .greybgs {
@@ -111,7 +114,7 @@ order:2;
     padding-bottom: 0px;
     padding-right: 25px;
     margin: 10px;
-    border: solid 2px rgb(185, 185, 185);
+    border: solid 2px rgb(228, 227, 227);
     border-radius: 25px;
     align-items: center;
     justify-content: center;
@@ -120,7 +123,7 @@ order:2;
 .money {
     width:21px;
     border-radius: 25px;
-    padding:9px;
+    padding:10px;
     margin-right:10px;
     background-color: #DEEBFF;
 }
@@ -130,8 +133,8 @@ order:2;
     border-radius: 25px;
     padding-top:8px;
     padding-bottom:8px;
-    padding-right: 9px;
-    padding-left: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-right:10px;
     background-color: #DEEBFF;
 }
@@ -141,8 +144,8 @@ order:2;
     border-radius: 25px;
     padding-top:6px;
     padding-bottom:4px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 11px;
+    padding-left: 11px;
     margin-right:10px;
     background-color: #DEEBFF;
 }
@@ -161,7 +164,7 @@ order:2;
 .mostpopicon {
     display: flex;
     width:25px;
-    padding:10px;
+    padding:0px;
     margin-right:10px;
 }
 
@@ -197,6 +200,7 @@ order:2;
 
 .mostpopcap {
     display: flex;
+    align-content: space-between;
     flex-wrap: wrap;
     padding:6px;
     width:190px;
@@ -214,9 +218,11 @@ order:2;
     flex-wrap: wrap; 
 }
 
+
+
 .accomtext{
     display: flex;
-    flex-direction: column-reverse
+
     align-items: space-between;
     flex-wrap: wrap; 
     padding-top: 0px;
@@ -241,7 +247,7 @@ order:2;
 .activcap {
     padding:6px;
     width:288px;
-    height:55px;
+    height:25px;
     border-right: 3px solid #FFFFFF;
     border-bottom: 3px solid #FFFFFF;
     border-left: 3px solid #FFFFFF;
@@ -249,6 +255,16 @@ order:2;
     border-bottom-right-radius: 10px;
     background-color: #FFFFFF;
 }
+
+
+h1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family:'Raleway', sans-serif; 
+    font-size: 1.25em;
+
+}
+
 
 h2 {
     margin-top: 0%;
@@ -324,6 +340,7 @@ ul {
 
 .introtext {
     font-size: 14px;
+    padding-bottom: 15px;
 }
 
 .header {
@@ -331,6 +348,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #FFFFFF;
+    margin-bottom: 25px;
 }
 .headerInner {
     margin:2px;
@@ -378,7 +396,8 @@ ul {
 
 .sec2lheader {
     padding-left:30px;
-    padding-top:0px;
+    padding-top:20px;
+    padding-bottom: 15px;
     display: flex;
 }
 
@@ -404,8 +423,10 @@ ul {
 .sec2rheader {
     display: flex;
     justify-content: space-between;
-    height:70px;
+    height:16px;
+    padding-top:20px;
     padding-left:30px;
+    padding-bottom: 0px;
     flex-wrap: wrap;
 }
 
@@ -758,7 +779,7 @@ ul {
         flex-direction: row;
         display: flex;
         flex-wrap:wrap;
-        justify-content:flex-start
+        justify-content:center;
         background-color: #F2F2F2;
     }
 
@@ -783,3 +804,4 @@ ul {
   }
 
 
+  }
