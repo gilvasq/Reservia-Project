@@ -3,8 +3,10 @@
 
 body {
     color:white;
-    margin:0px auto;
+    margin:0px;
+    padding:0px;
 }
+
 
 div {
 
@@ -578,10 +580,35 @@ ul {
 }
 
 .footer {
-    font-size: 10px;
-    padding-left: 30px;
+
+    padding: 30px;
     display:flex;
     background-color: #F2F2F2;
+}
+
+.footerleft {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1em;
+    padding: 30px;
+    background-color: #F2F2F2;  
+}
+
+.footercenter {
+    font-size: 1em;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    background-color: #F2F2F2;  
+}
+
+.footerright {
+    font-size: 1em;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    background-color: #F2F2F2;  
 }
   
   @media screen and (max-width: 480px) {
@@ -686,10 +713,10 @@ ul {
     }
 
     .footer {
+        display: flex;
         flex-direction: column;
-        font-size: 14px;
-        padding-left: 50px;
-        display:flex;
+        font-size: 1em;
+        padding-left: 40px;
         background-color: #F2F2F2;
     }
 
