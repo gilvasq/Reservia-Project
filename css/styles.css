@@ -580,6 +580,8 @@ Lower, Section 3 Containers/Element Styles
     background-color:#FFFFFF;
     margin-bottom: 40px;
     margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-top: 0px;
 }
 
@@ -595,7 +597,6 @@ Lower, Section 3 Containers/Element Styles
 .section3left {
     display:flex;
     flex-basis: 48%;
-
     justify-content: space-around;
     background-color: #FFFFFF;
 }
@@ -614,16 +615,12 @@ Lower, Section 3 Containers/Element Styles
 
 .section3lbox1outer {
     display: flex;
- 
     justify-content: center;
-
 }
 
 .section3rbox1outer {
     display: flex;
- 
     justify-content: center;
-
 }
 
 .sec3lbox2{
@@ -632,13 +629,11 @@ Lower, Section 3 Containers/Element Styles
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
-
 }
 
 .sec3lbox3 {
     flex-direction: column;
     justify-content: space-between;
- 
     display: flex; 
 }
 
