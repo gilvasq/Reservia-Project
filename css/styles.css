@@ -6,9 +6,7 @@
 /*=========================
 General Tag Styles
 ==========================*/
-body {
 
-}
 
 a {
     text-decoration: none;
@@ -17,10 +15,11 @@ a {
 
 a:link, a:visited {
     color:black;
+    text-decoration: none;
 }
 
 .pagewrapper {
-    margin: 0px auto;
+    margin:0px;
 }
 
 div {
@@ -43,15 +42,14 @@ h2 {
     margin-bottom: 0px;
     font-family:'Raleway', sans-serif; 
     font-size: 1em;
- 
-   
+    line-height: 1.25em;
 
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     font-size: .85em;
-    line-height: 0%;
+    line-height: 1.75em;
 
 
 }
@@ -182,8 +180,7 @@ Header Containers/Element Styles
 .logo {
     margin-left:15px;
     width: 110px;
-    padding-right: 800px;
-
+    padding-right: 600px;
 }
 
 .headnav {
@@ -262,6 +259,17 @@ Upper, Section 1 Containers/Element Styles
 }
 
 .search3 {
+
+    font-size: .85em;
+    text-decoration-color: #FFFFFF;
+    background-color: #0065FC;
+    padding:8px;
+    border-bottom-right-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.magicon {
+    display: none;
     font-size: .85em;
     text-decoration-color: #FFFFFF;
     background-color: #0065FC;
@@ -278,6 +286,10 @@ Upper, Section 1 Containers/Element Styles
     align-content: center;
 }
 
+.filterheader {
+    display: flex;
+    align-items: center;
+}
 
 .filterlinks {
     display:flex;
@@ -433,7 +445,7 @@ Middle, Section 2 Containers/Element Styles
     height:16px;
     padding-top:20px;
     padding-left:30px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
     flex-wrap: wrap;
 }
 
@@ -688,7 +700,7 @@ Footer Containers/Element Styles
     flex-direction: column;
     flex-wrap: wrap;
     font-size: 1em;
-    padding: 30px;
+    padding: 10px;
     background-color: #F2F2F2;  
 }
 
@@ -696,7 +708,7 @@ Footer Containers/Element Styles
     display:flex;
     flex-direction: column;
     font-size: 1em;
-    padding: 30px;
+    padding: 10px;
     background-color: #F2F2F2;  
 }
 
@@ -704,7 +716,7 @@ Footer Containers/Element Styles
     display:flex;
     flex-direction: column;
     font-size: 1em;
-    padding: 30px;
+    padding: 10px;
     background-color: #F2F2F2;  
 }
 
@@ -751,17 +763,18 @@ Media Queries
         display: block;
         border-top: 2px solid #FFFFFF;
         color:#000000;
-        border-bottom: 2px solid #FFFFFF
+        border-bottom: 2px solid #FFFFFF;
         text-align: center;
-        padding: 16px;
+  
         text-decoration: none;
       }
       
     li a:hover {
-        border-top: 0px solid #FFFFFF;
+        border-top: 2px solid #FFFFFF;
         color:#FFFFFF;
         border-bottom: 2px solid #0065FC;
         color:#0065FC;
+   
       }
 
     .introtext {
@@ -781,7 +794,7 @@ Media Queries
         align-content: center;
         border: solid 1px rgb(228, 227, 227);
         border-radius: 12px;
-        margin-bottom: 18px;;
+        margin-bottom: 28px;;
         }
     
     .search1 {
@@ -798,17 +811,30 @@ Media Queries
     .search2 {
         font-size: .85em;
         color: #0a0909;
-        padding:7px;
+        padding:11px;
     }
-    
+
     .search3 {
+        display: none;
         font-size: .85em;
         text-decoration-color: #FFFFFF;
         background-color: #0065FC;
         padding:8px;
-        border-radius:  10px;
-  
+        border-bottom-right-radius: 11px;
+        border-top-right-radius: 11px;
     }
+    
+    .magicon {
+        display: block;
+        width:20px;
+        font-size: .85em;
+        text-decoration-color: #FFFFFF;
+        background-color: #0065FC;
+        padding:8px 12px 8px 12px;
+        border-radius: 10px;
+    }
+    
+
 
     .headnav {
         display: flex;
@@ -831,6 +857,7 @@ Media Queries
         display: flex;
         flex-basis: 100%;
         line-height: 0%;
+        margin-bottom: 10px;
     }
 
     .filterlinks {
@@ -938,7 +965,7 @@ Media Queries
         display: flex;
         line-height: 0%;
         padding-top: 0px;
-        margin:0px 0px 0px 18px;
+        margin:0px 0px 10px 25px;
     }
 
     .sec2rbox2 {
@@ -983,20 +1010,37 @@ Media Queries
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
 
+    .sec3lbox2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+
+    
+    }
+    
+    .sec3lbox3 {
+        flex-direction: column;
+        justify-content: space-between;
+     
+        display: flex; 
+    }
+
     .sec3lpic2top {
-        margin:16px 23px 23px 23px;
+        margin:16px 23px 5px 23px;
         width:340px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec3lpic3lower {
-        margin:27px 23px 23px 23px;
+        margin:27px 23px 18px 23px;
         width:340px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
 
     .sec3rpic2top {
-        margin:13px 23px 26px 23px;
+        margin:13px 23px 8px 23px;
         width:340px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
@@ -1069,7 +1113,7 @@ Media Queries
         flex-direction: column;
         font-size: 1em;
         margin: 0px;
-        padding:20px 0px 0px 10px;
+        padding:20px 0px 0px 30px;
         background-color: #F2F2F2;
     }
 
@@ -1090,28 +1134,38 @@ Media Queries
 
   }
 
-  @media only screen and (max-width: 1200px) and (min-width: 700px) {
+  @media only screen and (min-width: 491px) and (max-width: 700px) {
 
-    .section3left {
-        display:flex;
-        justify-content: center;
-        background-color: #FFFFFF;
+    .mainlogocont {
+        order:1;
     }
-
-    .section3right {
-        display:flex;
-        justify-content: center;
-        background-color: #FFFFFF;
-    }
-}
-
-  @media only screen and (max-width: 1200px) and (min-width: 491px) {
-
+    
     .logo {
         margin-left:15px;
         width: 110px;
-        padding-right: 300px;
+        padding-right: 70px;
     }
+    
+    .headnav {
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        order:3;
+    }
+    
+    .signuplink {
+        font-weight:600;
+        color: #0065FC;
+        display:flex;
+        flex-wrap: wrap;
+        width:110px;
+        justify-content: center;
+        align-items: center;
+        order:2;
+    }
+
+
     
     .section2 {
         flex-direction: column-reverse;
@@ -1119,6 +1173,13 @@ Media Queries
         display:flex;
         background-color:#FFFFFF;
         margin-bottom:0px;
+    }
+
+    .section2left {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        background-color: #FFFFFF;
     }
 
     .section2right {
@@ -1149,5 +1210,95 @@ Media Queries
 
   }
 
+  @media only screen and (min-width: 701px) and (max-width: 1199px) {
 
-  }
+    .mainlogocont {
+        order:1;
+    }
+    
+    .logo {
+        margin-left:15px;
+        width: 110px;
+        padding-right: 20px;
+    }
+    
+    .headnav {
+        display: flex;
+        flex-wrap: wrap;
+        order:2;
+    }
+    
+    .signuplink {
+        font-weight:600;
+        color: #0065FC;
+        display:flex;
+        flex-wrap: wrap;
+        width:110px;
+        justify-content: center;
+        align-items: center;
+        order:3;
+    }
+
+    .section2 {
+        flex-basis: 100%;
+        display:flex;
+        flex-direction: column;
+        background-color:#FFFFFF;
+        margin-bottom:0px;
+    }
+
+
+
+    .section2right {
+        border-radius: 10px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        background-color: #F2F2F2;
+        padding-bottom: 20;
+    }
+
+    .sec2rbox2 {
+        display: flex;
+        flex-wrap: wrap;
+        width:338px;
+        height:145px;
+        margin: 20px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+    .sec2rbox3 {
+        display: flex;
+        flex-wrap: wrap;
+        width:338px;
+        height:145px;
+        margin: 20px;
+    
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+    .sec2rbox4 {
+        display: flex;
+        flex-wrap: wrap;
+        width:338px;
+        height:145px;
+        margin: 20px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+
+    .section3left {
+        display:flex;
+        justify-content: center;
+        background-color: #FFFFFF;
+    }
+
+    .section3right {
+        display:flex;
+        justify-content: center;
+        background-color: #FFFFFF;
+    }
+}
+
+
+  
