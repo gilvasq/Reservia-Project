@@ -1151,7 +1151,7 @@ Media Queries
 
     .logo {
         margin-left:15px;
-        width: 110px;
+        width: 85px;
         padding-right: 5px;
     }
 
@@ -1293,8 +1293,8 @@ Media Queries
     }
 
     .infotext {
-        font-size: .5em;
-        padding-top: 25px;
+        font-size: 1em;
+        padding-top: 15px;
         display: flex;
         margin-left:15px;
         align-items: center;
