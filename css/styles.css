@@ -726,7 +726,8 @@ Footer Containers/Element Styles
 Media Queries
 ==========================*/
 
-@media screen and (max-width: 500px) {
+
+@media screen and (min-width: 415px) and (max-width: 500px) {
 
     .headerInner{
         display: flex;
@@ -1292,8 +1293,8 @@ Media Queries
     }
 
     .infotext {
-        font-size: 1em;
-        padding-top: 5px;
+        font-size: .5em;
+        padding-top: 25px;
         display: flex;
         margin-left:15px;
         align-items: center;
