@@ -10,7 +10,6 @@ General Tag Styles
 
 a {
     text-decoration: none;
-    
 }
 
 a:link, a:visited {
@@ -24,8 +23,6 @@ a:link, a:visited {
 
 div {
     font-family: 'Raleway', sans-serif;
-
-
 }
 
 h1 {
@@ -33,7 +30,6 @@ h1 {
     margin-bottom: 0%;
     font-family:'Raleway', sans-serif; 
     font-size: 1.25em;
-
 }
 
 
@@ -43,15 +39,12 @@ h2 {
     font-family:'Raleway', sans-serif; 
     font-size: 1em;
     line-height: 1.25em;
-
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     font-size: .85em;
     line-height: 0px;
-
-
 }
 
 
@@ -219,7 +212,7 @@ Upper, Section 1 Containers/Element Styles
 }
 
 .introtext {
-    font-size: 14px;
+    font-size: 1em;
     line-height: 50%;
     padding-left:25px;
     padding-bottom: 15px;
@@ -259,7 +252,6 @@ Upper, Section 1 Containers/Element Styles
 }
 
 .search3 {
-
     font-size: .85em;
     text-decoration-color: #FFFFFF;
     background-color: #0065FC;
@@ -766,6 +758,7 @@ Media Queries
       }
       
     li {
+        width:225px;
         float: left;
       }
       
@@ -773,7 +766,7 @@ Media Queries
         display: block;
         border-top: 2px solid #FFFFFF;
         color:#000000;
-        border-bottom: 2px solid #FFFFFF;
+        border-bottom: 2px solid #F2F2F2;
         text-align: center;
   
         text-decoration: none;
@@ -787,8 +780,11 @@ Media Queries
    
       }
 
-    .introtext {
-        padding-left: 20px;
+      .introtext {
+        font-size: 1.5em;
+        line-height: 50%;
+        padding-left:20px;
+        padding-bottom: 15px;
     }
 
     .searchouterbox {
@@ -800,7 +796,7 @@ Media Queries
         margin-left:15px;
         justify-content: space-between;
         display:flex;
-        width:275px;
+        width:400px;
         align-content: center;
         border: solid 1px rgb(228, 227, 227);
         border-radius: 12px;
@@ -810,7 +806,7 @@ Media Queries
     .search1 {
         display: flex;
         justify-content: center;
-        width:35px;
+        width:45px;
         text-decoration-color: #FFFFFF;
         background-color: rgb(228, 227, 227);
         padding:3px;
@@ -819,9 +815,9 @@ Media Queries
     }
     
     .search2 {
-        font-size: .85em;
+        font-size: 1em;
         color: #0a0909;
-        padding:11px;
+        padding:12px;
     }
 
     .search3 {
@@ -833,10 +829,18 @@ Media Queries
         border-bottom-right-radius: 11px;
         border-top-right-radius: 11px;
     }
+
+    .searchmarker {
+        display: flex;
+        justify-content: center;
+        width:20px;
+        padding:3px;
+        justify-content: center;
+    }
     
     .magicon {
         display: block;
-        width:20px;
+        width:25px;
         font-size: .85em;
         text-decoration-color: #FFFFFF;
         background-color: #0065FC;
@@ -844,8 +848,6 @@ Media Queries
         border-radius: 10px;
     }
     
-
-
     .headnav {
         display: flex;
         flex-basis: 100%;
@@ -1007,7 +1009,6 @@ Media Queries
         margin-bottom: 18px;
     }
 
-
     .sec3lbox1 {
         background-color: #FFFFFF;
         margin:15px;
@@ -1026,14 +1027,11 @@ Media Queries
         flex-wrap: wrap;
         align-content: center;
         justify-content: space-between;
-
-    
     }
     
     .sec3lbox3 {
         flex-direction: column;
         justify-content: space-between;
-     
         display: flex; 
     }
 
@@ -1109,7 +1107,6 @@ Media Queries
     .picbox_activ_large {
         width:334px;
         height:135px;
- 
         border-left: 3px solid #FFFFFF;
         border-right: 3px solid #FFFFFF;
         border-top: 3px solid #FFFFFF;
@@ -1175,8 +1172,6 @@ Media Queries
         order:2;
     }
 
-
-    
     .section2 {
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -1257,8 +1252,6 @@ Media Queries
         margin-bottom:0px;
     }
 
-
-
     .section2right {
         border-radius: 10px;
         display: flex;
@@ -1283,7 +1276,6 @@ Media Queries
         width:338px;
         height:145px;
         margin: 20px;
-    
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
@@ -1296,7 +1288,6 @@ Media Queries
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
-
     .section3left {
         display:flex;
         justify-content: center;
