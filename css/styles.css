@@ -1386,7 +1386,7 @@ Media Queries
         margin-left:15px;
         justify-content: space-between;
         display:flex;
-        width:346px;
+        width:330px;
         align-content: center;
         border: solid 1px rgb(228, 227, 227);
         border-radius: 12px;
@@ -1529,20 +1529,20 @@ Media Queries
 
     .greybgs {
         display: flex;
-        padding: 0px;
-        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     .twothirdwidth {
-        display: flex;
-        padding: 0px;
-        margin: 0px;
+        display: none;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     .onethirdwidth {
         display: flex;
-        padding: 0px;
-        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
     
 
@@ -1778,4 +1778,4 @@ Media Queries
 
 
 
-  
+}
