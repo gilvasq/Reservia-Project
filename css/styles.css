@@ -1703,7 +1703,7 @@ Media Queries
     }
 
     .sec3header {
-        padding: 0px 0px 0px 20px;
+        padding: 0px 0px 0px 23px;
         margin: 0px 0px 0px 0px;
         }
 
@@ -1715,7 +1715,7 @@ Media Queries
 
     .sec3lbox1 {
         background-color: #FFFFFF;
-        margin:15px;
+        margin:15px 15px 15px 27px;
         width:340px;
         flex-direction: column;
         align-items: center;
@@ -1727,6 +1727,7 @@ Media Queries
 
     .sec3lbox2{
         display: flex;
+        margin:15px 15px 15px 26px;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
@@ -1737,28 +1738,29 @@ Media Queries
         flex-direction: column;
         justify-content: space-between;
         display: flex; 
+        margin:15px 15px 15px 26px;
     }
 
     .sec3lpic2top {
-        margin:16px 23px 5px 23px;
+        margin:16px 23px 5px 27px;
         width:340px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec3lpic3lower {
-        margin:27px 23px 18px 23px;
+        margin:27px 23px 18px 27px;
         width:340px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
 
     .sec3rpic2top {
-        margin:13px 23px 8px 23px;
+        margin:13px 23px 8px 27px;
         width:340px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec3rpic3lower {
-        margin:19px 23px 23px 23px;
+        margin:19px 23px 23px 27px;
         width:340px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
