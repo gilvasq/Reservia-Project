@@ -1142,7 +1142,7 @@ Media Queries
 
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 375px) {
 
     .headerInner{
         display: flex;
@@ -1156,6 +1156,7 @@ Media Queries
     }
 
     .mainlogo {
+        width:115px;
         order:1;
     }
 
@@ -1293,8 +1294,8 @@ Media Queries
     }
 
     .infotext {
-        font-size: 1em;
-        padding-top: 15px;
+        font-size: 1.25em;
+        padding-top: 8px;
         display: flex;
         margin-left:15px;
         align-items: center;
