@@ -1175,7 +1175,7 @@ Media Queries
       }
       
     li {
-        width:200px;
+        width:180px;
         float: left;
       }
       
@@ -1213,7 +1213,7 @@ Media Queries
         margin-left:15px;
         justify-content: space-between;
         display:flex;
-        width:385px;
+        width:360px;
         align-content: center;
         border: solid 1px rgb(228, 227, 227);
         border-radius: 12px;
@@ -1294,7 +1294,7 @@ Media Queries
     }
 
     .infotext {
-        font-size: 1.25em;
+        font-size: .85em;
         padding-top: 8px;
         display: flex;
         margin-left:15px;
