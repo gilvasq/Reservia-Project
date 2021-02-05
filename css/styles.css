@@ -1477,7 +1477,7 @@ Media Queries
     }
 
     .picbox_accom {
-        width:334px;
+        width:332px;
         height:135px;
         border-left: 3px solid #FFFFFF;
         border-right: 3px solid #FFFFFF;
@@ -1545,26 +1545,76 @@ Media Queries
         margin: 0px 0px 0px 0px;
     }
     
-
-
-
     .mostpopicon {
         padding:0px;
         margin-right:10px;
     }
     
-
     .section2 {
         flex-direction: column-reverse;
         flex-wrap: wrap;
         display:flex;
         background-color:#FFFFFF;
-        margin-bottom:0px;
+        margin: 0px 0px 0px 0px;
     }
 
     .sec2lheader {
         padding: 12px 0px 0px 19px;
         margin: 0px 0px 0px 0px;
+    }
+
+    .sec2lbox1 {
+        display: flex;
+        width: 338px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin:15px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+    .sec2lbox2 {
+        display: flex;
+        width: 338px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin:15px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+    .sec2lbox3 {
+        display: flex;
+        width: 338px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin:15px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+    .sec2lbox4 {
+        display: flex;
+        width: 338px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin:15px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+    .sec2lbox5 {
+        display: flex;
+        width: 338px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin:15px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
+    }
+    
+    .sec2lbox6 {
+        display: flex;
+        width: 338px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin:15px;
+        box-shadow: 0px 0px 5px 4px #dddcdc;
     }
 
     .sec2rheader {
@@ -1619,19 +1669,19 @@ Media Queries
     .sec2rbox2 {
         display: flex;
         flex-wrap: wrap;
-        margin:20px;
+        margin:20px 10px 20px 10px;
     }
     
     .sec2rbox3 {
         display: flex;
         flex-wrap: wrap;
-        margin:20px;
+        margin:20px 10px 20px 10px;
     }
     
     .sec2rbox4 {
         display: flex;
         flex-wrap: wrap;
-        margin:20px;
+        margin:20px 10px 20px 10px;
     }
 
     .sec3header {
