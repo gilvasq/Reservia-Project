@@ -1477,7 +1477,7 @@ Media Queries
     }
 
     .picbox_accom {
-        width:332px;
+        width:330px;
         height:135px;
         border-left: 3px solid #FFFFFF;
         border-right: 3px solid #FFFFFF;
@@ -1493,12 +1493,27 @@ Media Queries
         flex-wrap: wrap;
         justify-content: space-between;
         padding:6px;
-        width:320px;
+        width:318px;
         height:70px;
         border-right: 3px solid #FFFFFF;
         border-bottom: 3px solid #FFFFFF;
         border-left: 3px solid #FFFFFF;
         border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #FFFFFF;
+    }
+
+    .mostpopcap {
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding:6px;
+        width:187px;
+        height:128px;
+        border-right: 3px solid #FFFFFF;
+        border-bottom: 3px solid #FFFFFF;
+        border-top: 3px solid #FFFFFF;
+        border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         background-color: #FFFFFF;
     }
@@ -1565,7 +1580,7 @@ Media Queries
 
     .sec2lbox1 {
         display: flex;
-        width: 338px;
+        width: 336px;
         flex-direction: column;
         background-color: #FFFFFF;
         margin:15px;
@@ -1574,7 +1589,7 @@ Media Queries
     
     .sec2lbox2 {
         display: flex;
-        width: 338px;
+        width: 336px;
         flex-direction: column;
         background-color: #FFFFFF;
         margin:15px;
@@ -1583,7 +1598,7 @@ Media Queries
     
     .sec2lbox3 {
         display: flex;
-        width: 338px;
+        width: 336px;
         flex-direction: column;
         background-color: #FFFFFF;
         margin:15px;
@@ -1592,7 +1607,7 @@ Media Queries
     
     .sec2lbox4 {
         display: flex;
-        width: 338px;
+        width: 336px;
         flex-direction: column;
         background-color: #FFFFFF;
         margin:15px;
@@ -1601,7 +1616,7 @@ Media Queries
     
     .sec2lbox5 {
         display: flex;
-        width: 338px;
+        width: 336px;
         flex-direction: column;
         background-color: #FFFFFF;
         margin:15px;
@@ -1610,7 +1625,7 @@ Media Queries
     
     .sec2lbox6 {
         display: flex;
-        width: 338px;
+        width: 336px;
         flex-direction: column;
         background-color: #FFFFFF;
         margin:15px;
@@ -1668,18 +1683,21 @@ Media Queries
 
     .sec2rbox2 {
         display: flex;
+        width: 335px;
         flex-wrap: wrap;
         margin:20px 10px 20px 10px;
     }
     
     .sec2rbox3 {
         display: flex;
+        width: 335px;
         flex-wrap: wrap;
         margin:20px 10px 20px 10px;
     }
     
     .sec2rbox4 {
         display: flex;
+        width: 335px;
         flex-wrap: wrap;
         margin:20px 10px 20px 10px;
     }
