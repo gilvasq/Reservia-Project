@@ -1175,7 +1175,7 @@ Media Queries
       }
       
     li {
-        width:180px;
+        width:165px;
         float: left;
       }
       
@@ -1213,7 +1213,7 @@ Media Queries
         margin-left:15px;
         justify-content: space-between;
         display:flex;
-        width:360px;
+        width:350px;
         align-content: center;
         border: solid 1px rgb(228, 227, 227);
         border-radius: 12px;
