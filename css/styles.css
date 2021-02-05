@@ -1151,7 +1151,7 @@ Media Queries
     .logo {
         margin-left:15px;
         width: 110px;
-        padding-right: 20px;
+        padding-right: 5px;
     }
 
     .mainlogo {
@@ -1173,7 +1173,7 @@ Media Queries
       }
       
     li {
-        width:205px;
+        width:200px;
         float: left;
       }
       
@@ -1289,6 +1289,14 @@ Media Queries
 
     .filterlinks {
         margin-left: 0px;
+    }
+
+    .infotext {
+        font-size: 1em;
+        padding-top: 5px;
+        display: flex;
+        margin-left:15px;
+        align-items: center;
     }
 
     .picbox_accom {
