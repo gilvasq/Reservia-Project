@@ -726,7 +726,7 @@ Footer Containers/Element Styles
 Media Queries
 ==========================*/
   
-  @media screen and (max-width: 490px) {
+  @media screen and (max-width: 500px) {
 
     .headerInner{
         display: flex;
@@ -758,7 +758,7 @@ Media Queries
       }
       
     li {
-        width:225px;
+        width:220px;
         float: left;
       }
       
@@ -1141,7 +1141,7 @@ Media Queries
 
   }
 
-  @media only screen and (min-width: 491px) and (max-width: 700px) {
+  @media only screen and (min-width: 501px) and (max-width: 700px) {
 
     .mainlogocont {
         order:1;
