@@ -27,6 +27,7 @@ a:link, a:visited {
 
 div {
     font-family: 'Raleway', sans-serif;
+
 }
 
 h1 {
@@ -1477,7 +1478,7 @@ Media Queries
     }
 
     .picbox_accom {
-        width:330px;
+        width:324px;
         height:135px;
         border-left: 3px solid #FFFFFF;
         border-right: 3px solid #FFFFFF;
@@ -1493,7 +1494,7 @@ Media Queries
         flex-wrap: wrap;
         justify-content: space-between;
         padding:6px;
-        width:318px;
+        width:312px;
         height:70px;
         border-right: 3px solid #FFFFFF;
         border-bottom: 3px solid #FFFFFF;
@@ -1524,7 +1525,7 @@ Media Queries
         flex-wrap: wrap;
         justify-content: space-between;
         padding:6px;
-        width:320px;
+        width:308px;
         height:25px;
         border-right: 3px solid #FFFFFF;
         border-bottom: 3px solid #FFFFFF;
@@ -1574,61 +1575,61 @@ Media Queries
     }
 
     .sec2lheader {
-        padding: 12px 0px 0px 19px;
-        margin: 0px 0px 0px 0px;
+        padding: 12px 0px 0px 0px;
+        margin: 0px 0px 0px 24px;
     }
 
     .sec2lbox1 {
         display: flex;
-        width: 336px;
+        width: 330px;
         flex-direction: column;
         background-color: #FFFFFF;
-        margin:15px;
+        margin: 10px 0px 10px 0px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec2lbox2 {
         display: flex;
-        width: 336px;
+        width: 330px;
         flex-direction: column;
         background-color: #FFFFFF;
-        margin:15px;
+        margin: 10px 0px 10px 0px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec2lbox3 {
         display: flex;
-        width: 336px;
+        width: 330px;
         flex-direction: column;
         background-color: #FFFFFF;
-        margin:15px;
+        margin: 10px 0px 10px 0px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec2lbox4 {
         display: flex;
-        width: 336px;
+        width: 330px;
         flex-direction: column;
         background-color: #FFFFFF;
-        margin:15px;
+        margin: 10px 0px 10px 0px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec2lbox5 {
         display: flex;
-        width: 336px;
+        width: 330px;
         flex-direction: column;
         background-color: #FFFFFF;
-        margin:15px;
+        margin: 10px 0px 10px 0px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec2lbox6 {
         display: flex;
-        width: 336px;
+        width: 330px;
         flex-direction: column;
         background-color: #FFFFFF;
-        margin:15px;
+        margin: 10px 0px 10px 0px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
 
@@ -1667,7 +1668,7 @@ Media Queries
         align-items: flex-start;
         line-height: 1%;
         padding:0px 0px 0px 0px;
-        margin:0px 0px 10px 20px;
+        margin:0px 0px 10px 23px;
     }
 
     h4 {
@@ -1715,8 +1716,8 @@ Media Queries
 
     .sec3lbox1 {
         background-color: #FFFFFF;
-        margin:15px 15px 15px 27px;
-        width:340px;
+        margin:10px 0px 2px 0px;
+        width:330px;
         flex-direction: column;
         align-items: center;
         flex-basis:100%;
@@ -1727,7 +1728,8 @@ Media Queries
 
     .sec3lbox2{
         display: flex;
-        margin:15px 15px 15px 26px;
+        margin:10px 0px 10px 0px;
+        width:330px;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
@@ -1737,31 +1739,32 @@ Media Queries
     .sec3lbox3 {
         flex-direction: column;
         justify-content: space-between;
+        width:330px;
         display: flex; 
-        margin:15px 15px 15px 26px;
+        margin:10px 0px 0px 0px;
     }
 
     .sec3lpic2top {
-        margin:16px 23px 5px 27px;
-        width:340px;
+        margin:10px 0px 10px 0px;
+        width:330px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec3lpic3lower {
-        margin:27px 23px 18px 27px;
-        width:340px;
+        margin:10px 0px 10px 0px;
+        width:330px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
 
     .sec3rpic2top {
-        margin:13px 23px 8px 27px;
-        width:340px;
+        margin:10px 0px 10px 0px;
+        width:330px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
     
     .sec3rpic3lower {
-        margin:19px 23px 23px 27px;
-        width:340px;
+        margin:10px 0px 10px 0px;
+        width:330px;
         box-shadow: 0px 0px 5px 4px #dddcdc;
     }
 
@@ -1789,7 +1792,7 @@ Media Queries
     }
 
     .picbox_activ_small {
-        width:334px;
+        width:324px;
         height:135px;
         border-left: 3px solid #FFFFFF;
         border-right: 3px solid #FFFFFF;
@@ -1800,7 +1803,7 @@ Media Queries
     }
     
     .picbox_activ_medium {
-        width:334px;
+        width:324px;
         height:135px;
         border-left: 3px solid #FFFFFF;
         border-right: 3px solid #FFFFFF;
@@ -1811,7 +1814,7 @@ Media Queries
     }
     
     .picbox_activ_large {
-        width:334px;
+        width:324px;
         height:135px;
         border-left: 3px solid #FFFFFF;
         border-right: 3px solid #FFFFFF;
