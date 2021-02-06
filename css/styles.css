@@ -836,11 +836,8 @@ Media Queries
     }
 
     .searchmarker {
-        display: flex;
         justify-content: center;
-        width:20px;
-        padding:3px;
-        justify-content: center;
+        width:12px;
     }
     
     .magicon {
@@ -1403,6 +1400,12 @@ Media Queries
         border-bottom-left-radius: 11px;
         border-top-left-radius: 11px;
     }
+
+    .searchmarker {
+        padding: 8px 5px  0px  5px ;
+        width:15px;
+    
+    }
     
     .search2 {
         font-size: 1em;
@@ -1420,12 +1423,7 @@ Media Queries
         border-top-right-radius: 11px;
     }
 
-    .searchmarker {
-        justify-content: center;
-        width:15px;
-        padding:3px;
-        justify-content: center;
-    }
+
     
     .magicon {
         display: block;
@@ -1433,7 +1431,7 @@ Media Queries
         font-size: .85em;
         text-decoration-color: #FFFFFF;
         background-color: #0065FC;
-        padding:8px 12px 8px 12px;
+        padding:10px 12px 6px 12px;
         border-radius: 10px;
     }
     
