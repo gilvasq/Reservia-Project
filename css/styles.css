@@ -1421,7 +1421,6 @@ Media Queries
     }
 
     .searchmarker {
-        display: flex;
         justify-content: center;
         width:15px;
         padding:3px;
@@ -1560,11 +1559,6 @@ Media Queries
         margin: 0px 0px 0px 0px;
     }
     
-    .mostpopicon {
-        padding:0px;
-        margin-right:10px;
-    }
-    
     .section2 {
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -1638,7 +1632,6 @@ Media Queries
     }
 
     .mostpopicon {
-        display: flex;
         width:25px;
         padding:0px;
         margin-right:22px;
