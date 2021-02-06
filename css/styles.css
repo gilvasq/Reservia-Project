@@ -84,7 +84,6 @@ Icon Styles
 ==========================*/
 
 .searchmarker {
-    display: flex;
     justify-content: center;
     width:12px;
     padding:3px;
@@ -149,6 +148,7 @@ Icon Styles
 .ratingstars {
     display: flex;
     flex-direction: row;
+    background-size: 15px 15px;
     width: 15px;
 }
 
