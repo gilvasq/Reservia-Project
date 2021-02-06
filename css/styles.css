@@ -145,9 +145,7 @@ Icon Styles
 }
 
 .ratingstars {
-    display: flex;
-    flex-direction: row;
-    background-size: 15px 15px;
+    display: inline-flex;
     width: 15px;
 }
 
