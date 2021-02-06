@@ -834,8 +834,9 @@ Media Queries
     }
 
     .searchmarker {
-        justify-content: center;
-        width:12px;
+        padding: 8px 5px  0px  5px ;
+        width:15px;
+    
     }
     
     .magicon {
