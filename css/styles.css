@@ -86,8 +86,7 @@ Icon Styles
 .searchmarker {
     justify-content: center;
     width:12px;
-    padding:3px;
-    justify-content: center;
+
 }
 
 .money {
@@ -139,7 +138,7 @@ Icon Styles
 }
 
 .mostpopicon {
-    display: flex;
+
     width:25px;
     padding:0px;
     margin-right:10px;
@@ -245,7 +244,7 @@ Upper, Section 1 Containers/Element Styles
     width:35px;
     text-decoration-color: #FFFFFF;
     background-color: rgb(228, 227, 227);
-    padding:3px;
+    padding:8px 4px 4px 4px;
     border-bottom-left-radius: 11px;
     border-top-left-radius: 11px;
 }
