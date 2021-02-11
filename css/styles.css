@@ -7,9 +7,7 @@
 
   
 
-/*=========================
-General Tag Styles
-==========================*/
+
 
 
 a {
@@ -508,7 +506,6 @@ Middle, Section 2 Containers/Element Styles
 
 .accomtext{
     display: flex;
-    align-items: space-between;
     flex-wrap: wrap; 
     padding-top: 0px;
     padding-left: 4px;
@@ -729,7 +726,7 @@ Media Queries
 ==========================*/
 
 
-@media screen and (min-width: 415px) and (max-width: 500px) {
+@media screen and (min-width: 376px) and (max-width: 500px) {
 
     .headerInner{
         display: flex;
@@ -1185,7 +1182,7 @@ Media Queries
         flex-wrap:wrap;
         justify-content: center;
         background-color: #F2F2F2;
-        padding-bottom: 20;
+
     }
 
     .sec2rbox2 {
