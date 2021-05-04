@@ -934,8 +934,8 @@ Media Queries
     
 
     .section2 {
-        width:100%
-        flex-direction: column-reverse;
+        width:100%;
+        flex-direction:column-reverse;
         flex-wrap: wrap;
         display:flex;
         background-color:#FFFFFF;
