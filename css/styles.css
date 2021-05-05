@@ -202,12 +202,14 @@ Upper, Section 1 Containers/Element Styles
 ==========================*/
 
 .section1 {
+    width:100%;
     display:flex;
     flex-wrap: wrap;
     background-color:#FFFFFF;
 }
 
 .introtext {
+    width: 100%;
     font-size: 1em;
     line-height: 50%;
     padding-left:25px;
@@ -216,6 +218,7 @@ Upper, Section 1 Containers/Element Styles
 
 .searchouterbox {
     display: flex;
+    width: 100%;
 }
 
 .searchfield {
@@ -268,6 +271,7 @@ Upper, Section 1 Containers/Element Styles
 
 .filters {
     flex-wrap: wrap;
+    width:100%;
     margin-left:15px;
     display:flex;
     justify-content: start;
@@ -298,9 +302,10 @@ Upper, Section 1 Containers/Element Styles
 }
 
 .infotext {
-    padding-top: 5px;
+    width:100%;
     display: flex;
     margin-left:15px;
+    padding-top: 5px;
     align-items: center;
 }
 
@@ -433,7 +438,7 @@ Middle, Section 2 Containers/Element Styles
     height:16px;
     padding-top:20px;
     padding-left:30px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     flex-wrap: wrap;
 }
 
@@ -777,6 +782,7 @@ Media Queries
       }
 
       .introtext {
+        width: 100%;
         font-size: 1.5em;
         line-height: 50%;
         padding-left:20px;
@@ -1356,6 +1362,8 @@ Media Queries
 
       .introtext {
         display: flex;
+        flex-wrap: wrap;
+        width: 100%;
         font-size: 1.5em;
         line-height: 1em;
         padding-left:20px;
@@ -1457,12 +1465,16 @@ Media Queries
         padding: 0px 16px 0px 0px;
     }
 
-    .infotext {
+    
+
+    .infotext p {
         font-size: .85em;
+        line-height: 1em;
         padding-top: 2px;
         padding-bottom: 8px;
         display: flex;
-        margin-left:15px;
+        margin-left:5px;
+        margin-right: 15px;
         align-items: center;
     }
 
